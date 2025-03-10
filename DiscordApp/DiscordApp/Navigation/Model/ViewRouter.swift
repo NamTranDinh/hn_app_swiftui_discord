@@ -8,15 +8,16 @@
 import Foundation
 import Combine
 
-enum Roots {
-  case home
-  case profile
+enum Tabs {
+    case home
+    case search
+    case profile
 }
 
 class ViewRouter: ObservableObject {
-  @Published var currentRoot: Roots = SessionManager.isValidSession ? .profile : .home
-  
-  static let shared = ViewRouter()
-  
-  fileprivate init() { }
+    @Published var currentRoot: Tabs = SessionManager.isValidSession ? .profile : .home
+    
+    static let shared = ViewRouter()
+    
+    fileprivate init() { }
 }

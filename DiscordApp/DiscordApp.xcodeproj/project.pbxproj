@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BDC7C14B2D7E9F0500C4C6BF /* ThirdPartyKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC7C14A2D7E9F0500C4C6BF /* ThirdPartyKeys.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BDC7C0C12D7E803400C4C6BF /* DiscordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC7C14A2D7E9F0500C4C6BF /* ThirdPartyKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ThirdPartyKeys.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		BDC7C0B82D7E803400C4C6BF = {
 			isa = PBXGroup;
 			children = (
+				BDC7C14A2D7E9F0500C4C6BF /* ThirdPartyKeys.plist */,
 				BDC7C0C32D7E803400C4C6BF /* DiscordApp */,
 				BDC7C0C22D7E803400C4C6BF /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC7C14B2D7E9F0500C4C6BF /* ThirdPartyKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
