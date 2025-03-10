@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct DiscordAppApp: App {
+struct DiscordApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabView()
         }
     }
 }
