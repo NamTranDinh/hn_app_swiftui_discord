@@ -9,4 +9,8 @@ import Foundation
  
 class AppTabViewModel : ObservableObject {
     @Published var selectedTabIndex: Int = 0
+    
+    static let shared = AppTabViewModel()
+    
+    fileprivate init() { }
 }

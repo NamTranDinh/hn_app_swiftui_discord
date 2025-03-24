@@ -11,7 +11,9 @@ import SwiftUI
 struct DiscordApp: App {
     var body: some Scene {
         WindowGroup {
-            AppTabView()
+            RootView()
+                .environmentObject(ViewRouter.shared)
+                .environmentObject(AppTabViewModel.shared)
         }
     }
 }

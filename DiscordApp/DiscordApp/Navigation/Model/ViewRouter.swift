@@ -8,14 +8,12 @@
 import Foundation
 import Combine
 
-enum Tabs {
-    case home
-    case search
-    case profile
+enum Screens {
+    case tabView
 }
 
 class ViewRouter: ObservableObject {
-    @Published var currentRoot: Tabs = SessionManager.isValidSession ? .profile : .home
+    @Published var currentRoot: Screens =  .tabView
     
     static let shared = ViewRouter()
     
