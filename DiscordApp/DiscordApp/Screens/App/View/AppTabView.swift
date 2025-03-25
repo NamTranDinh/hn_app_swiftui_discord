@@ -36,4 +36,5 @@ struct AppTabView: View {
 
 #Preview {
     AppTabView()
+        .environmentObject(AppTabViewModel.shared)
 }

@@ -13,4 +13,14 @@ extension Color {
   static let appAltoGray = Color("altoGray")
   static let appCadetBlue = Color("cadetBlue")
   static let appErrorRed = Color("errorRed")
+    
+  static let backgroundColor = Color("backgroundColor")
+  static let blue = Color("blue")
+  static let green = Color("green")
+  static let hoverColor = Color("hoverColor")
+  static let mainColor = Color("mainColor")
+  static let messageBarColor = Color("messageBarColor")
+  static let orange = Color("orange")
+  static let red = Color("red")
+  static let sideBarColor = Color("sideBarColor")
 }
